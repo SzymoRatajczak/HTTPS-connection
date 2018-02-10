@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 app.post('/', function(req,res)
 {
 	
-	var message-req.body,
+	var message=req.body,
 	res.send('Message received' + queryString.stringify(message))
 });
 
